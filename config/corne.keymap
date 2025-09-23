@@ -278,8 +278,6 @@
             //             |     |     |     |     |          |     |     |
             // 4
 
-            }
-
             bindings = <
 &trans  &msc SCRL_UP    &trans          &mmv MOVE_UP    &trans           &trans    &trans     &trans          &kp UP_ARROW    &kp PAGE_UP      &trans   &trans
 &trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans    &mkp LCLK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans
