@@ -12,6 +12,8 @@ visualisation: [https://keymap-drawer.streamlit.app/](https://keymap-drawer.stre
   * symbol map of https://github.com/DesyncTheThird/corne-keymap -> inverted (), [], {} for nicer rolling  
   * https://getreuer.info/posts/keyboards/symbol-layer/index.html
   * https://mulldotin.wordpress.com/2019/02/03/layers-36keys/
+  * no-teaching layout linked on https://www.reddit.com/r/crkbd/comments/12y5hip/coding_layout/: http://imgur.com/a/DKzQ9TL
+  * https://mattgemmell.com/the-corne-keyboard/
 * Add mouse layer
 * Shift is nicely available on both sides, but CTRL and ALT are not very intuitive. Want to try home row mod
   * some combos for cut/copy/paste
