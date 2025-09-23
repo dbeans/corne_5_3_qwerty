@@ -247,10 +247,10 @@
             // 2
 
             bindings = <
-&none   &kp BSLH       &kp AT            &kp RA(E)    &kp LS(N4)          &kp LS(N5)          &kp AMPERSAND   &kp RA(RBKT)     &kp RA(LBKT)    &trans     &kp PIPE  &trans
-&none   &kp AT_SIGN    &kp SINGLE_QUOTE  &kp LS(N2)   &kp RA(N3)          &trans              &kp KP_MINUS    &kp LS(N9)       &kp LS(N8)      &kp SLASH  &trans    &trans
-&trans  &trans         &trans            &NON_US_BSLH &kp LS(NON_US_BSLH) &trans              &kp UNDERSCORE  &kp RA(BSLH)     &kp RA(SQT)     &trans     &trans    &trans
-                                         &trans       &trans              &trans              &trans          &trans           &trans
+&none   &kp BSLH     &kp AT            &kp RA(E)   &kp LS(N4)  &kp LS(N5)    &kp AMPERSAND   &kp RA(RBKT)  &kp RA(LBKT)  &trans     &kp PIPE  &trans
+&none   &kp AT_SIGN  &kp SINGLE_QUOTE  &kp LS(N2)  &kp RA(N3)  &trans        &kp KP_MINUS    &kp LS(N9)    &kp LS(N8)    &kp SLASH  &trans    &trans
+&trans  &trans       &trans            &kp LT      &kp GT      &trans        &kp UNDERSCORE  &kp RA(BSLH)  &kp RA(SQT)   &trans     &trans    &trans
+                                       &trans      &trans      &trans        &trans          &trans        &trans
             >;
         };
 
@@ -277,7 +277,9 @@
             // |     |     |     |  <  |  >  |     |          |  _  |  }  |  {  |     |     |    |
             //             |     |     |     |     |          |     |     |
             // 4
-        }
+
+            }
+
             bindings = <
 &trans  &msc SCRL_UP    &trans          &mmv MOVE_UP    &trans           &trans    &trans     &trans          &kp UP_ARROW    &kp PAGE_UP      &trans   &trans
 &trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans    &mkp LCLK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans
@@ -285,6 +287,5 @@
                                         &trans          &trans           &trans    &trans     &trans          &trans
             >;
         };
-
     };
 };
