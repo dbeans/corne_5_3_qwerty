@@ -14,6 +14,7 @@ visualisation: [https://keymap-drawer.streamlit.app/](https://keymap-drawer.stre
   * https://mulldotin.wordpress.com/2019/02/03/layers-36keys/
   * no-teaching layout linked on https://www.reddit.com/r/crkbd/comments/12y5hip/coding_layout/: http://imgur.com/a/DKzQ9TL
   * https://mattgemmell.com/the-corne-keyboard/
+  * https://github.com/adiazes/zmk_spanish_key_codes/blob/main/ZMK_Spanish_key_codes.c
 * Add mouse layer
 * Shift is nicely available on both sides, but CTRL and ALT are not very intuitive. Want to try home row mod
   * some combos for cut/copy/paste
